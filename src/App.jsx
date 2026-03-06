@@ -8,21 +8,32 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import CostOptimization from "./components/CostOptimization";
 import Reliability from "./components/Reliability";
+import Pipeline from "./components/PipeLine";
 
 function App() {
   return (
     <div className="scroll-smooth bg-slate-900 text-white">
       <NavBar />
       <Hero />
+
       <About />
       <Skills />
+
+      <Pipeline />
+
       <Architecture />
-      <Experience />
-      <CostOptimization />
-      <Reliability />
+
       <Projects />
+
+      <Experience />
+
+      <Reliability />
+
+      <CostOptimization />
+
       <Contact />
     </div>
+    
   );
 }
 

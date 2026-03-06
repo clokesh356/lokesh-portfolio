@@ -2,7 +2,7 @@ import React from "react";
 
 const CostOptimization = () => {
   return (
-    <section className="py-20 px-6 bg-slate-900">
+    <section className="py-24 px-6 bg-slate-900">
       <div className="max-w-5xl mx-auto">
         <h3 className="text-3xl font-bold text-cyan-400 mb-8">
           Cost Optimization Strategy
